@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.titulo { 
+    color: lightgray;
+    margin-top: 1rem;
+    margin-left: 43%;
+}
+
+.titulo h4 {
+    margin-left: 2.8rem;
+}
+body {
+	color: white;
+	background-color: #202020;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
